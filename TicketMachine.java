@@ -64,6 +64,13 @@
     {
      return total;
     }
+    /**
+     * Create prompt
+     */
+    public void prompt()
+    {
+        System.out.println("Please inset the correct amount of money.");
+    }
 
     /**
      * Print a ticket.
@@ -78,7 +85,7 @@
         System.out.println("# Ticket");
         System.out.println("# " + price + " cents.");
         System.out.println("##################");
-        System.out.println();
+        System.out.println("My cat has green eyes.");
 
         // Update the total collected with the balance.
         total = total + balance;
