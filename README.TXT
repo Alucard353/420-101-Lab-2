@@ -30,12 +30,45 @@ Q18: Student is the class
 Q19: one the paramete is the price
 Q20: the names of the field will most likely be chapters, students, or teachers?
 Q21: public Pet(String petsName)
-{ private int name; }
+{ private boolean pet; }
 Q22: 
 /** class Date
 { private boolean Date;
 new int = new date }
-Q23:
+Q23: The difference between both the body amd header's are the method name
+Q24: What amount of money was inserted into the balace
+Q25: The getBalance name cna be changed to get amount without any issues it will function the same way, which mean the name of the accessor and the name of the field just need to mean the same thing
+Q27: The error message that appeares is when you try to compile is no statement
+Q28: The header for get price has int while the header for print uses void
+Q29: They do not have return statements because they do not return anthing to us because for insert you give money while with print it just creates a new ticket
+Q31: /**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+// TODO: Increase score by the value in points.
+}
+Q32: Yes it is a mutator because it changes the value within an object
+Q33: * Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+// TODO: Subtract amount from price.
+}
+Q34: /** set age
+/*
+public int age()
+{
+currentAge = age int
+}
+Q35: 
+public void is alive (boolean alive)
+
+
+
+
+
+
 
 
 
