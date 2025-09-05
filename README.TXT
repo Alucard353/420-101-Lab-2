@@ -63,6 +63,8 @@ currentAge = age int
 }
 Q35: 
 public void is alive (boolean alive)
+Q36: It changes the cost to price in the inspector
+
 
 
 
