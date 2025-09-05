@@ -18,6 +18,7 @@
     // The total amount of money collected by this machine.
     private int total;
     private int status;
+    private int getTotal;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -36,14 +37,14 @@
      */
     public int getPrice()
     {
-        return price;
+        return  price;
     }
 
     /**
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getBalance()
+    public int getAmount()
     {
         return balance;
     }
@@ -54,6 +55,14 @@
     public void insertMoney(int amount)
     {
         balance = balance + amount;
+    }
+
+    /**
+     * Get total amount
+     */
+    public int getTotal()
+    {
+     return total;
     }
 
     /**
