@@ -32,6 +32,12 @@ Q20: the names of the field will most likely be chapters, students, or teachers?
 Q21: public Pet(String petsName)
 { private int name; }
 Q22: 
+/** class Date
+{ private boolean Date;
+new int = new date }
+Q23:
+
+
 
 
 
