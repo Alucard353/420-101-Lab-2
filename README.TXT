@@ -67,6 +67,8 @@ Q36: It changes the cost to price in the inspector
 Q39: Without " around price it would print price cents, but with " it would print the amount of cents needed to print
 Q40: It changes it back to say price cents
 Q42: different outputs due to the xyz variable of the int for the price being different from all the ticket machines
+Q43: They print the same output, I assume that the %d is the amount of cents and &on is the print for price
+
 
 
 
