@@ -1,3 +1,5 @@
+import java.util.Set;
+
 /**
  * TicketMachine models a naive ticket machine that issues
  * flat-fare tickets.
@@ -19,6 +21,7 @@
     private int total;
     private int status;
     private int getTotal;
+    private int totalAmount;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -48,7 +51,13 @@
     {
         return balance;
     }
-
+    /**
+     * 
+     */
+    public void empty ()
+    {
+         totalAmount= 0;
+    }
     /**
      * Receive an amount of money from a customer.
      */
