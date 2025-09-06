@@ -64,7 +64,10 @@ currentAge = age int
 Q35: 
 public void is alive (boolean alive)
 Q36: It changes the cost to price in the inspector
-On question 39
+Q39: Without " around price it would print price cents, but with " it would print the amount of cents needed to print
+Q40: It changes it back to say price cents
+Q42: different outputs due to the xyz variable of the int for the price being different from all the ticket machines
+
 
 
 

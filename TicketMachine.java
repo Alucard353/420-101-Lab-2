@@ -56,6 +56,13 @@
     {
         balance = balance + amount;
     }
+    /**
+     * Show the xyz price in cents
+     */
+    public void showPrice()
+    {
+        System.out.println("The prcie of ticket is xyz cents");
+    }
 
     /**
      * Get total amount
@@ -83,7 +90,7 @@
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.println("# price cents.");
         System.out.println("##################");
         System.out.println("My cat has green eyes.");
 
